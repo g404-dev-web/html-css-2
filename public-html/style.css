@@ -1,3 +1,5 @@
+/* Très petits écrans (smartphones, moins de 768px) */
+/* Pas besoin de media-query, c'est le style par défaut (mobile-first) */
 body {
   width: 85%;
   margin: auto;
@@ -30,5 +32,3 @@ section {
 /* Petits écrans (tablettes, 768px et plus) */
 
 /* Ecrans moyens (laptops, 992px et plus) */
-
-/* Ecrans larges (desktops, 1024px et plus) */
