@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    image: httpd:2.4
+    container_name: html-css-1
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public-html:/usr/local/apache2/htdocs/
+    command: > 
+      bash -c "echo -e '\033[0;32mSERVER READY ON http://localhost:8080\033[0m'
+      && httpd-foreground"
