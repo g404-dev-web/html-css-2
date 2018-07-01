@@ -15,7 +15,7 @@ Ouvrez les fichiers index.html et style.css, et complétez le fichier CSS selon 
 
 #### Affichage sur Smartphones
 * Ne pas afficher l'élément aside sur smartphones
-* Ajouter les media-queries selon les breakpoints de Bootstrap pour un affichage sur Tablettes et Desktops
+* Ajouter les media-queries selon les breakpoints communs de supports actuels pour un affichage sur Tablettes et Desktops
 
 #### Affichage sur Tablettes
 * Modifier la largeur du body à 75%
@@ -42,7 +42,6 @@ Element section
 ## Accomplissement
 Réduisez, agrandissez votre fenêtre et observez les changements s'opérer ;)
 
-## Liens utiles
-https://css-tricks.com/css-media-queries/
-
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+## Recherches utiles
+* media queries for common device breakpoints
+* guide to flexbox css
