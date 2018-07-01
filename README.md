@@ -11,12 +11,13 @@ Server will be ready on http://localhost:8080
 
 ## Exercice 
 Mettre en oeuvre les media queries pour différencier l'affichage des élements du site en fonction du support utilisé.
+Ouvrez les fichiers index.html et style.css, et complétez le fichier CSS selon les consignes suivantes:
 
 #### Affichage sur Smartphones
 * Ne pas afficher l'élément aside sur smartphones
 * Ajouter les media-queries selon les breakpoints de Bootstrap pour un affichage sur Tablettes et Desktops
 
-#### Affichage sur Tablettes
+#### Affichage sur Tablettes
 * Modifier la largeur du body à 75%
 
 Element aside
@@ -43,4 +44,5 @@ Réduisez, agrandissez votre fenêtre et observez les changements s'opérer ;)
 
 ## Liens utiles
 https://css-tricks.com/css-media-queries/
+
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
