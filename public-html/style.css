@@ -1,0 +1,32 @@
+body {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;;
+}
+
+/********** Début des déclarations Flexbox (Sujet abordé dans les prochains cours) ***********/
+header, aside, section, footer {
+  display: flex;
+  margin: 2%;
+}
+
+p {
+  margin: auto;
+}
+/********** Fin des déclarations Flexbox ***********/
+
+header, footer{
+  background-color: #ff9966;
+  height: 150px;
+}
+
+section {
+  background-color: #33cccc;
+  height: 150px;
+}
+
+
+/* Petits écrans (tablettes, 768px et plus) */
+
+/* Ecrans moyens (desktops, 992px et plus) */
