@@ -26,6 +26,7 @@ Element aside
 * Une couleur de fond #00ff99
 * Affichage sur Desktops
 
+#### Affichage sur Desktops
 * Attribuer une position relative à la div de class container (Pour que les éléments enfants en position absolue se placent par rapport à cet élément)
 
 Element aside
