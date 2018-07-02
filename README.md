@@ -24,7 +24,6 @@ Element aside
 * Afficher l'élément avec la propriété display: flex; 
 * Une hauteur de 150px
 * Une couleur de fond #00ff99
-* Affichage sur Desktops
 
 #### Affichage sur Desktops
 * Attribuer une position relative à la div de class container (Pour que les éléments enfants en position absolue se placent par rapport à cet élément)
