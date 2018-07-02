@@ -1,0 +1,76 @@
+/* Très petits écrans (smartphones, moins de 768px) */
+/* Pas besoin de media-query, c'est le style par défaut */
+
+body {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;;
+}
+
+/********** Début des déclarations Flexbox (Sujet abordé dans le prochain cours) ***********/
+header, aside, section, footer {
+  display: flex;
+  margin: 2%;
+}
+
+p {
+  margin: auto;
+}
+/********** Fin des déclarations Flexbox ***********/
+
+header, footer{
+  background-color: #ff9966;
+  height: 150px;
+}
+
+section {
+  background-color: #33cccc;
+  height: 150px;
+}
+
+/*********** On n'affiche pas l'aside sur smartphone **********/
+
+aside {
+  display: none;
+}
+
+/* Petits écrans (tablettes, 768px et plus) */
+@media (min-width: 768px) {
+
+  body {
+    width: 75%;
+  }
+
+  /********** On décide d'afficher l'aside à partir du format d'écran Tablette ***********/
+  aside {
+    display: flex;
+    height: 150px;
+    background-color: #00ff99;
+  }
+
+}
+
+/* Ecrans moyens (desktops, 992px et plus) */
+@media (min-width: 992px) {
+
+  /********** On dispose les éléments Section et Aside différemment à partir du format d'écran Desktop **********/
+  .container{
+    position: relative;
+  }
+
+  aside {
+    width: 23%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  section {
+    width: 70%;
+    height: 220px;
+  }
+
+}
